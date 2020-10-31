@@ -43,10 +43,10 @@ body {
 .login_form {
     width: 400px;
     margin: 50px auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 10px;
     padding: 25px;
-    box-shadow: 0 7px 13px -4px black;
+    box-shadow: 0 4px 18px -6px black;
 }
 
 .loginform_heading {
@@ -64,8 +64,9 @@ body {
 
 
 .todo_main {
-    border: 1px solid black;
-    box-shadow: 0 7px 13px -4px black;
+    /* border: 1px solid black; */
+    /* box-shadow: 0 1px 9px -2px black; */
+   box-shadow:  0 1px 9px -1px #787878;
     border-radius: 10px;
     padding: 10px;
     width: 40%;
@@ -91,13 +92,21 @@ body {
 }
 
 .todo_main textarea {
-    box-shadow: inset -5px -5px 5px rgba(27, 25, 25, 0.333),
-        inset 5px 5px 5px rgba(48, 46, 46, 0.333);
-    background: transparent;
+    /* box-shadow: inset -5px -5px 5px rgba(27, 25, 25, 0.333),
+        inset 5px 5px 5px rgba(48, 46, 46, 0.333); */
+        box-shadow: inset -5px -5px 5px rgb(106 106 106 / 33%), inset 5px 5px 5px rgb(106 106 106 / 33%);
+        background: transparent;
     /* outline: none; */
     border: none;
 
 }
+todo_main textarea:focus {
+    outline: none;
+    border: none;
+    background: unset;
+   
+}
+
 
 .todo_main textarea:focus {
     outline: none;
@@ -109,11 +118,14 @@ body {
 .todo_li_items {
     width: 80%;
     min-width: 60%;
-    margin: 5px auto 5px auto;
-    border: 1px solid black;
+    margin: 5px auto 10px auto;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: 0 1px 9px -1px #787878;
     border-radius: 10px;
     word-wrap: break-word;
-    box-shadow: 0 4px 14px -4px black;
+    /* box-shadow: 0 4px 14px -4px black; */
+    /* box-shadow: inset -5px -5px 5px rgb(106 106 106 / 33%), inset 5px 5px 5px rgb(106 106 106 / 33%); */
     padding: 10px;
 }
 
@@ -124,4 +136,5 @@ body {
     padding: 0;
     border: none;
     cursor: pointer;
+    /* color:rgb(105, 105, 105); */
 }

@@ -50,7 +50,7 @@ function Todolists(props) {
         <CheckBoxIcon />
       </button>
 
-      <button disabled={props.val.isHearted && true} className="p-0" onClick={() => props.onDelete(props.id)}>
+      <button disabled={props.val.isHearted && true}className="p-0" onClick={() => props.onDelete(props.id)}>
         <DeleteForeverIcon />
       </button>
 
