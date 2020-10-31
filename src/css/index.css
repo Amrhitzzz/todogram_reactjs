@@ -1,0 +1,127 @@
+:root {
+    /* colors  */
+    --mainbg: #E1DFE1;
+    --loginbg: #F5F5F5;
+    --borderbg: #707070;
+    --btnbg: #445CFF;
+
+    /* fonts-size */
+    --mainheading: 30px;
+    --label: 40px;
+    --btn: 20x;
+}
+
+* {
+    /* padding: 0;
+    margin: 0; */
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.09px;
+}
+
+
+body {
+    background: var(--mainbg);
+}
+
+.btngroup {
+    margin: 20px 0 0 1px;
+}
+
+.btngroup button {
+    width: 20px;
+    height: 20px;
+    border-style: none;
+}
+
+.card-body {
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 7px 13px -8px black;
+}
+
+.login_form {
+    width: 400px;
+    margin: 50px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 7px 13px -4px black;
+}
+
+.loginform_heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.login_form input {
+    border-radius: 10px;
+    height: 50px;
+    box-shadow: 0 7px 13px -12px black;
+
+
+}
+
+
+.todo_main {
+    border: 1px solid black;
+    box-shadow: 0 7px 13px -4px black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+    min-width: 400px;
+    margin: auto;
+
+}
+
+.todo_header {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    min-width: 400px;
+    margin: 10px auto 10px auto;
+    flex-wrap: wrap;
+}
+
+.todo_header button {
+    padding: 2px;
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+}
+
+.todo_main textarea {
+    box-shadow: inset -5px -5px 5px rgba(27, 25, 25, 0.333),
+        inset 5px 5px 5px rgba(48, 46, 46, 0.333);
+    background: transparent;
+    /* outline: none; */
+    border: none;
+
+}
+
+.todo_main textarea:focus {
+    outline: none;
+    border-color: inherit;
+
+}
+
+/* li items  */
+.todo_li_items {
+    width: 80%;
+    min-width: 60%;
+    margin: 5px auto 5px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    word-wrap: break-word;
+    box-shadow: 0 4px 14px -4px black;
+    padding: 10px;
+}
+
+.todo_li_items button {
+    /* width: fit-content;
+    height: fit-content; */
+    font-size: 1px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}

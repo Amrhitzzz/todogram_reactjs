@@ -1,0 +1,19 @@
+.clock_style {
+    /* margin: 10px auto 5px auto; */
+    padding: 10px;
+    width: fit-content;
+    /* text-align: center; */
+    align-items: center;
+    font-family: sans-serif, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: #fff;
+    border: 2px solid green;
+    border-radius: 10px;
+    letter-spacing: 4px;
+    height: fit-content;
+  }
+
+
+
